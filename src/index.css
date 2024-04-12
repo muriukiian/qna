@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.container1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-basis: 33.3%;
+  background-color: black;
+  color: white;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  margin: 5px;
+  gap: 50px;
+}
+textarea{
+  padding: 10px;
+  margin: 20px;
+  border: 4px solid grey;
+  box-shadow: 5px 5px 5px hsla(0,0%,0%,0.2);
+  color: black;
+  background-color: gold;
+  border-radius: 20px;
+}
+input{
+  padding: 10px;
+  margin: 20px;
+  border: 4px solid gold;
+  box-shadow: 5px 5px 5px hsla(0,0%,0%,0.2);
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+body{
+  background-color: rgb(32, 29, 29);
+  color: goldenrod;
+}
+h1{
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: goldenrod;
+}
